@@ -13,8 +13,6 @@
 		6EAC20001B0BE32C0048D15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC1FFE1B0BE32C0048D15D /* InfoPlist.strings */; };
 		6EAC20021B0BE32C0048D15D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC20011B0BE32C0048D15D /* main.m */; };
 		6EAC20061B0BE32C0048D15D /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC20051B0BE32C0048D15D /* CBAppDelegate.m */; };
-		6EAC20091B0BE32C0048D15D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC20071B0BE32C0048D15D /* Main_iPhone.storyboard */; };
-		6EAC200C1B0BE32C0048D15D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC200A1B0BE32C0048D15D /* Main_iPad.storyboard */; };
 		6EAC200F1B0BE32C0048D15D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC200E1B0BE32C0048D15D /* CBViewController.m */; };
 		6EAC20111B0BE32C0048D15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC20101B0BE32C0048D15D /* Images.xcassets */; };
 		6EAC20181B0BE32C0048D15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC20171B0BE32C0048D15D /* XCTest.framework */; };
@@ -22,6 +20,8 @@
 		6EAC201A1B0BE32C0048D15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC1FF91B0BE32C0048D15D /* UIKit.framework */; };
 		6EAC20221B0BE32C0048D15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC20201B0BE32C0048D15D /* InfoPlist.strings */; };
 		6EAC20241B0BE32C0048D15D /* ColorButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC20231B0BE32C0048D15D /* ColorButtonTests.m */; };
+		6EAC202E1B0BE3840048D15D /* CBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC202D1B0BE3840048D15D /* CBViewController.xib */; };
+		6EAC20301B0BFE220048D15D /* CBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC202F1B0BFE220048D15D /* CBViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,6 @@
 		6EAC20031B0BE32C0048D15D /* ColorButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorButton-Prefix.pch"; sourceTree = "<group>"; };
 		6EAC20041B0BE32C0048D15D /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
 		6EAC20051B0BE32C0048D15D /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
-		6EAC20081B0BE32C0048D15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6EAC200B1B0BE32C0048D15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6EAC200D1B0BE32C0048D15D /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
 		6EAC200E1B0BE32C0048D15D /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
 		6EAC20101B0BE32C0048D15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		6EAC201F1B0BE32C0048D15D /* ColorButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorButtonTests-Info.plist"; sourceTree = "<group>"; };
 		6EAC20211B0BE32C0048D15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EAC20231B0BE32C0048D15D /* ColorButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorButtonTests.m; sourceTree = "<group>"; };
+		6EAC202D1B0BE3840048D15D /* CBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBViewController.xib; sourceTree = "<group>"; };
+		6EAC202F1B0BFE220048D15D /* CBViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 			children = (
 				6EAC20041B0BE32C0048D15D /* CBAppDelegate.h */,
 				6EAC20051B0BE32C0048D15D /* CBAppDelegate.m */,
-				6EAC20071B0BE32C0048D15D /* Main_iPhone.storyboard */,
-				6EAC200A1B0BE32C0048D15D /* Main_iPad.storyboard */,
 				6EAC200D1B0BE32C0048D15D /* CBViewController.h */,
 				6EAC200E1B0BE32C0048D15D /* CBViewController.m */,
+				6EAC202D1B0BE3840048D15D /* CBViewController.xib */,
+				6EAC202F1B0BFE220048D15D /* CBViewController_iPad.xib */,
 				6EAC20101B0BE32C0048D15D /* Images.xcassets */,
 				6EAC1FFC1B0BE32C0048D15D /* Supporting Files */,
 			);
@@ -232,10 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC200C1B0BE32C0048D15D /* Main_iPad.storyboard in Resources */,
 				6EAC20111B0BE32C0048D15D /* Images.xcassets in Resources */,
-				6EAC20091B0BE32C0048D15D /* Main_iPhone.storyboard in Resources */,
+				6EAC202E1B0BE3840048D15D /* CBViewController.xib in Resources */,
 				6EAC20001B0BE32C0048D15D /* InfoPlist.strings in Resources */,
+				6EAC20301B0BFE220048D15D /* CBViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +285,6 @@
 				6EAC1FFF1B0BE32C0048D15D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6EAC20071B0BE32C0048D15D /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EAC20081B0BE32C0048D15D /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6EAC200A1B0BE32C0048D15D /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EAC200B1B0BE32C0048D15D /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6EAC20201B0BE32C0048D15D /* InfoPlist.strings */ = {
@@ -394,7 +378,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorButton/ColorButton-Prefix.pch";
 				INFOPLIST_FILE = "ColorButton/ColorButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,7 +393,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorButton/ColorButton-Prefix.pch";
 				INFOPLIST_FILE = "ColorButton/ColorButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

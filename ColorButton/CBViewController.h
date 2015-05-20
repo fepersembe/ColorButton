@@ -10,4 +10,9 @@
 
 @interface CBViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIButton * btn_colorChange;
+
+- (IBAction)changeColorPressed:(id)sender;
+- (IBAction)changeColorReleased:(id)sender;
+
 @end
